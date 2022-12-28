@@ -1,0 +1,137 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("img/login.png");
+}
+
+body {
+  background-color: #88ecef;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  color: #303133;
+}
+
+hr {
+  background-color: #35a1a4;
+  height: 5px;
+}
+
+.titulo {
+  text-align: left;
+  background-color: #35a1a4;
+  color: #3d3d3d;
+  padding: 20px 20px;
+}
+
+.content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.menu {
+  width: 20%;
+}
+
+.menu ul {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.menu ul li {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 4px 0px;
+  background-color: #07477c;
+  padding: 9px 0px;
+  border: 2px solid indigo;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.detalles {
+  margin: 10px 20px;
+  display: flex;
+}
+
+.curso {
+  width: 33%;
+}
+
+.grupo {
+  width: 33%;
+}
+.desc {
+  width: 33%;
+}
+
+.login {
+  width: 50%;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.login h3 {
+  width: 100%;
+  background: #4caf50;
+  padding: 20px;
+  text-align: center;
+}
+
+.login h3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form input[type="submit"] {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4caf50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form input[type="submit"]:hover,
+.form input[type="submit"]:active,
+.form input[type="submit"]:focus {
+  background: #43a047;
+}
