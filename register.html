@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="./css/style.css" />
+    <title>Registro</title>
+  </head>
+  <body>
+    <div class="login">
+      <div class="form">
+        <form action="cgi-bin/register.pl" method="POST">
+          <input
+            type="text"
+            placeholder="Nombre..."
+            name="firstName"
+            required
+          /><br />
+          <input
+            type="text"
+            placeholder="Apellido..."
+            name="lastName"
+            required
+          /><br />
+          <input
+            type="text"
+            placeholder="Usuario..."
+            name="userName"
+            required
+          /><br />
+          <input
+            type="password"
+            placeholder="Contraseña..."
+            name="password"
+            required
+          /><br />
+          <input type="submit" value="Registrar" />
+          <p>¿Ya estas registrado? <a href="login.html">Inicia sesión</a></p>
+        </form>
+      </div>
+      <h3><a href="./index.html">Volver al inicio</a></h3>
+    </div>
+  </body>
+</html>
