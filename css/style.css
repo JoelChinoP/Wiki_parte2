@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url("img/login.png");
 }
 
 body {
@@ -32,6 +31,8 @@ hr {
   width: 100%;
   justify-content: center;
   flex-direction: row;
+  background: url(../img/Fondo.jpg);
+  background-size: 100%;
 }
 
 .menu {
@@ -84,7 +85,7 @@ hr {
 
 .login h3 {
   width: 100%;
-  background: #4caf50;
+  background: cornflowerblue;
   padding: 20px;
   text-align: center;
 }
@@ -120,7 +121,7 @@ hr {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #4caf50;
+  background: indigo;
   width: 100%;
   border: 0;
   padding: 15px;
@@ -133,5 +134,5 @@ hr {
 .form input[type="submit"]:hover,
 .form input[type="submit"]:active,
 .form input[type="submit"]:focus {
-  background: #43a047;
+  background: #07477c;
 }
